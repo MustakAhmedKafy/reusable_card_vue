@@ -6,7 +6,7 @@ const data = [
     image: "img/product-1.jpg",
     location: "California",
     price: 87,
-    rating: 4,
+    rating: 3,
     time: 15,
     title: "Photo by drew",
   },
