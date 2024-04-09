@@ -1,0 +1,1 @@
+dynamic form with dynamic star using props
