@@ -35,8 +35,12 @@ const data = [
     /> -->
     <div class="container mx-auto">
       <div class="md:flex md:flex-wrap">
-        <div class="md:w-1/2 px-4 mb-8">
-          <Card v-for="item in data" :key="item.title" v-bind="item" />
+        <div
+          class="md:w-1/3 px-4 mb-8"
+          v-for="(item, index) in data"
+          :key="index"
+        >
+          <Card v-bind="item" />
         </div>
       </div>
     </div>
